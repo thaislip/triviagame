@@ -1,20 +1,89 @@
 
-
-body{
-background-image: url("/assets/images/starwars-background.jpg");
+body,html{
+background-image:url("../images/starwars-background.jpg");
 background-repeat: no-repeat;
+height:100%;
+background-size:cover;
+background-position:center;
+margin-bottom:0px;
+}
 
+#game,p{
+    padding:2px;
+    color:whitesmoke;
 }
 
 .choice{
-border: 1px solid lightgrey;
-padding:10px;
-border-radius: 4px;
+border: 1px solid lightslategrey;
+padding:20px;
+border-radius: 50px;
 cursor:pointer;
+font-family:Georgia, 'Times New Roman', Times, serif;
+background-color:lightslategray;
+float:center;
+color:whitesmoke;
 }
+
+h4{color:whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:lightslategrey;
+    padding:5px;
+    border-radius:50px;
+}
+
+.choice:hover{
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: box-shadow .5s;
+    transform: translate(2px,2px);
+}
+
 h1{
 text-align: center;
 font-size:80px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 text-decoration: underline;
+color:whitesmoke;
+padding:5px;
+float:top left;
+}
+
+h2{
+    text-align: left;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    border-radius:25px;
+    padding:10px;
+    }
+
+.container{
+    border:5px black;
+    border-radius: 25px;
+    padding:5px;
+    margin:auto;
+}
+
+.jumbotron{
+    border-radius:50px;
+    background-image:url("../images/death-star.jpeg");
+
+}
+
+.btn{
+    border-radius:20px;
+    background-color:lightsteelblue;
+    border-color:black;
+    color:black;
+}
+
+.preload-image{
+    color:whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    color:whitesmoke;
+    text-align:center;
 }
